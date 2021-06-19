@@ -9,7 +9,7 @@ window.onload=function(){
       newDiv.innerHTML=`
       <h6>${keyValue.slice(0,55)}</h6>
             <h4>${keyValue.slice(55,keyValue.length)}</h4>
-            <p>${localStorage.getItem(keyValue)}</p>
+            <p spellcheck='false' style='padding:5px;'>${localStorage.getItem(keyValue)}</p>
          <div class='btn-container'>
             <button class="btn btn-danger btn-sm" onclick='deleteNote(event,this)'><i class="far fa-trash-alt"></i> delete</button>
             <button class="btn btn-primary edit btn-sm" onclick='editNote(this)'><i class="fas fa-edit"></i> Edit</button>
@@ -32,7 +32,7 @@ function addNote(){
       newDiv.innerHTML=`
                <h6>${dt}</h6>
                <h4>${title.value}</h4>
-               <p>${notedesc.value}</p>
+               <p spellcheck='false' style='padding:5px;'>${notedesc.value}</p>
                <div class='btn-container'>
                <button class="btn btn-danger btn-sm" onclick='deleteNote(event,this)'><i class="far fa-trash-alt"></i> delete</button>
                <button class="btn btn-primary edit btn-sm" onclick='editNote(this)'><i class="fas fa-edit"></i> Edit</button>
