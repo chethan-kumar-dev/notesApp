@@ -1,0 +1,30 @@
+@media only screen and (max-width:576px) {
+   .textarea{
+      width: 300px;
+   }
+   .rounded{
+      width: 100%;
+   }
+}
+h1{
+   background-image: linear-gradient( 109.6deg,  rgba(104,183,249,1) 31.3%, rgba(176,248,200,1) 100.2% );   padding: 10px;
+   color: black;
+   margin: 10px;
+}
+.edit{
+   content: 'hello';
+}
+.row{
+   margin: 10px;
+}
+.col-lg-3{
+   background-image: linear-gradient( 180deg,  rgba(167,220,225,1) 11.2%, rgba(217,239,242,1) 88.9% );
+   color: black;
+   height: 280px;
+   border: 15px solid white;
+   border-radius: 20px;
+}
+.btn-container{
+   position: absolute;
+   top: 200px
+}
